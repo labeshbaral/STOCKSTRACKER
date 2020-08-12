@@ -3,25 +3,14 @@
 from bs4 import BeautifulSoup
 import urllib.request
 from tabulate import tabulate
-import tkinter
-import PIL
-import crossfiledialog
-import finnhub
-import six
-import dateutil
-import matplotlib
-import pylab
-import matplotlib.backends.backend_tkagg
-from distutils.core import setup
-import py2exe
+
 import requests
-import json
+
 import pandas as pd
-import ast
+
 from alpha_vantage.timeseries import TimeSeries
 import time
-import flask
-import openpyxl
+
 
 def opener (stringer):
  list= []
